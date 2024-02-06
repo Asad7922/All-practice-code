@@ -1,0 +1,142 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*----------Nav-bar section-------------*/
+.container>.nav-bar {
+    width: 300px;
+    min-height: 100%;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0 50px 20px;
+    transition: 0.5s all ease;
+}
+
+.nav-bar>a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border-radius: 20px 0 0 20px;
+    font-size: 20px;
+}
+
+.nav-bar>a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.nav-bar>.active {
+    background-color: #fff;
+    color: black;
+}
+
+/*-------------page section-------------*/
+
+.container>.page {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+
+.page>h1 {
+    font-weight: 600;
+}
+
+#category {
+    height: 25px;
+    width: 90%;
+    font-size: 15px;
+    padding: 5px 5px;
+    border: 1px solid #c5c5c5;
+    margin-top: 5px;
+}
+
+.img-label {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(91, 91, 198);
+    color: rgb(91, 91, 198);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.img-label i {
+    font-size: 30px;
+}
+.button-6{  
+    border: 1px solid #c5c5c5;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.button-7{  
+    margin-top: 20px;
+    border: 1px solid #0d6efd;
+    padding: 10px 25px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+}
+.product-name {
+    width: 100%;
+    box-shadow: -5px 6px 16px #a1a1a1, -4px -5px 10px #a1a1a1;
+    margin-bottom: 50px;
+    
+
+}
+
+.product-name .name {
+   display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.name>div {
+position: absolute;
+  margin-left: 400px ;
+}
+
+
+
+.product-name>p {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #3d3d3d;
+}
+
+.name>p {
+    padding-left: 10px;
+}
+.name .button-4{
+    background: #fff;
+    border: 1px solid #929292;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+}
+.name .button-5{
+    background: #fecaca;
+    border: 1px solid #fecaca;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    color: red;
+}
